@@ -1,11 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                    <img src="./images/Geolab.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/shop.html">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/return.html">Return Rules</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-4">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="bg-image">
+                <div class="bg-image-content">
+                    <h5>New Arrival</h5>
+                    <h1>Discover Our New Collection</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                        mattis.</p>
+                    <button>BUY Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="browse-range">
+            <div class="title">
+                <h1>Browse The Range</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="range-cards">
+                <div class="range-card">
+                    <img src="./images/assortment/diningroom.png" alt="Dining">
+                    <h1>Dining</h1>
+                </div>
+                <div class="range-card">
+                    <img src="./images/assortment/livingroom.png" alt="Living">
+                    <h1>Living</h1>
+                </div>
+                <div class="range-card">
+                    <img src="./images/assortment/bedroom.png" alt="Bedroom">
+                    <h1>Bedroom</h1>
+                </div>
+                <div class="range-card">
+                    <img src="./images/assortment/bathroom.jpg" alt="Bathroom">
+                    <h1>Bathroom</h1>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="our-products">
+            <div class="title">
+                <h1>Our Products</h1>
+            </div>
+
+            <div class="product-cards">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-1.png" alt="Syltherine">
+                        <span class="badge discount">-30%</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Syltherine</h1>
+                        <p>Stylish cafe chair</p>
+                        <div class="price">
+                            <strong>Rp 2.500.000</strong>
+                            <span>Rp 3.500.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-2.png" alt="Leviosa">
+                    </div>
+                    <div class="product-info">
+                        <h1>Leviosa</h1>
+                        <p>Stylish cafe chair</p>
+                        <div class="price">
+                            <strong>Rp 2.500.000</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-3.avif" alt="Lolito">
+                        <span class="badge discount">-50%</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Lolito</h1>
+                        <p>Luxury big sofa</p>
+                        <div class="price">
+                            <strong>Rp 7.000.000</strong>
+                            <span>Rp 14.000.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-4.png" alt="Respira">
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Respira</h1>
+                        <p>Outdoor bar table and stool</p>
+                        <div class="price">
+                            <strong>Rp 500.000</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-5.avif" alt="Grifo">
+                    </div>
+                    <div class="product-info">
+                        <h1>Grifo</h1>
+                        <p>Night lamp</p>
+                        <div class="price">
+                            <strong>Rp 1.500.000</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-1.png" alt="Muggo">
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Muggo</h1>
+                        <p>Small mug</p>
+                        <div class="price">
+                            <strong>Rp 150.000</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-2.png" alt="Pingky">
+                        <span class="badge discount">-50%</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Pingky</h1>
+                        <p>Cute bed set</p>
+                        <div class="price">
+                            <strong>Rp 7.000.000</strong>
+                            <span>Rp 14.000.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="./images/our-products/products-3.avif" alt="Potty">
+                        <span class="badge new">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h1>Potty</h1>
+                        <p>Minimalist flower pot</p>
+                        <div class="price">
+                            <strong>Rp 500.000</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="show-more">Show More</button>
+        </section>
+
+        <section class="inspiration">
+            <div class="inspiration-content">
+                <h2>50+ Beautiful rooms inspiration</h2>
+                <p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p>
+                <button>Explore More</button>
+            </div>
+
+            <div class="inspiration-gallery">
+                <div class="main-room">
+                    <img src="./images/inspiration/inspirationOne.avif" alt="Bedroom inspiration">
+
+                    <div class="room-info">
+                        <span>01 — Bed Room</span>
+                        <h3>Inner Peace</h3>
+                        <button>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="side-room">
+                    <img src="./images/inspiration/inpirationTwo.avif" alt="Dining room inspiration">
+
+                    <button class="next-btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+
+                    <div class="dots">
+                        <span class="active"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="furniture-gallery">
+            <div class="gallery-title">
+                <p>Share your setup with</p>
+                <h2>#FuniroFurniture</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <img class="gallery-img img-1" src="./images/FuniroFurniture/Rectangle25.png" alt="">
+                <img class="gallery-img img-2" src="./images/FuniroFurniture/Rectangle36.png" alt="">
+                <img class="gallery-img img-3" src="./images/FuniroFurniture/Rectangle38.png" alt="">
+                <img class="gallery-img img-4" src="./images/FuniroFurniture/Rectangle39.png" alt="">
+                <img class="gallery-img img-5" src="./images/FuniroFurniture/Rectangle25.png" alt="">
+                <img class="gallery-img img-6" src="./images/FuniroFurniture/Rectangle36.png" alt="">
+                <img class="gallery-img img-7" src="./images/FuniroFurniture/Rectangle38.png" alt="">
+                <img class="gallery-img img-8" src="./images/FuniroFurniture/Rectangle39.png" alt="">
+                <img class="gallery-img img-9" src="./images/FuniroFurniture/Rectangle25.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column footer-brand">
+                <h2>Funiro.</h2>
+                <p>400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+            </div>
+
+            <div class="footer-column">
+                <h2>Links</h2>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-column">
+                <h2>Help</h2>
+                <a href="#">Payment Options</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy Policies</a>
+            </div>
+
+            <div class="footer-column newsletter">
+                <h2>Newsletter</h2>
+                <form>
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+
+            <div class="footer-bottom">
+                <p>2026 funiro. All rights reserved</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
